@@ -1,7 +1,6 @@
-# Anonymous MSG 📧
+# CrypticTalk 
 ---
 
-## Visit [HomePage](https://anonymousmsg.herokuapp.com "Click here")
 ---
 ---
 ## Use of Anonymous MSG 👽:
@@ -33,6 +32,7 @@
 - [Room](https://anonymousmsg.herokuapp.com/room "Room create")
 #### Author ✍:
 
-- [Subhranshu Choudhury](https://about.me/subhranshu "Subhranshu Choudhury")
+- Subhranshu Choudhury
+- Mustafa Al-Sakkaf
 
 

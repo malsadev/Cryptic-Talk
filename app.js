@@ -24,7 +24,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(session({
-    secret: process.env.SECRET_KEY,
+    secret: "NA",
     resave: false,
     saveUninitialized: false
     // cookie: { secure: true }
@@ -33,7 +33,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect(`mongodb+srv://admin_subhranshu:${process.env.DB_KEY}@cluster0.one0j.mongodb.net/anonymousChat`);
+mongoose.connect(`mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.8.0`);
 
 const userSkeliton = new mongoose.Schema({
     email: String,
